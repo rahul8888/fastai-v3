@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1w2886QVyBYFw0j5XHIIH6E5at6xukXGS/malaria_det_model.h5'
+export_file_url = 'https://drive.google.com/file/d/1w2886QVyBYFw0j5XHIIH6E5at6xukXGS'
 export_file_name = 'malaria_det_model.h5'
 
 classes = ['Parasitized', 'Uninfected']
